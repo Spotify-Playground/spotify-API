@@ -96,10 +96,11 @@ check_execute = BashOperator(
 )
 
 # check.wishlist
+# wishlist 파일이 있는지 확인하는 오퍼레이터
 check_wishlist = BashOperator(
     task_id='check.wishlist',
     bash_command=f'''
-    if [ -f "/Users/kimdohoon/git/spotify-data-pipeline/datas/wishlists/playlists.json" ]; then
+    if [ -f "/Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/wishlists/playlists.json" ]; then
     exit 0
     else
     exit 1
@@ -109,28 +110,31 @@ check_wishlist = BashOperator(
 )
 
 # make.JSON.playlist
+# 파이썬 파일(playlist 관련 API 요청을 수행하고, JSON 파일을 적재)을 실행하는 오퍼레이터
 make_JSON_playlist = BashOperator(
     task_id='make.JSON.playlist',
     bash_command=f'''
-    python /Users/kimdohoon/git/spotify-data-pipeline/src/API_requests/make_JSON_playlists.py
+    python /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/src/API_requests/make_JSON_playlists.py
     ''',
     dag=dag
 )
 
 # make.DONE
+# 앞선 작업이 완료되면 DONE FLAG를 생성하는 오퍼레이터
 make_DONE = BashOperator(
     task_id='make.DONE',
     bash_command=f'''
-    touch /Users/kimdohoon/git/spotify-data-pipeline/datas/JSON/playlists/DONE
+    touch /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/JSON/playlists/DONE
     ''',
     dag=dag
 )
 
 # start.spark
+# 쉘 스크립트(스파크 마스터와 워커의 실행 여부를 확인하고, 꺼져 있으면 실행)를 실행하는 오퍼레이터
 run_spark = BashOperator(
     task_id='run.spark',
     bash_command='''
-    if sh /Users/kimdohoon/git/spotify-data-pipeline/sh/run-spark.sh; then echo "Run Spark"
+    if sh /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/sh/run-spark.sh; then echo "Run Spark"
     else echo "Spark is already running."
     fi
     ''',
@@ -138,21 +142,23 @@ run_spark = BashOperator(
 )
 
 # spark.task.1
+# 쉘 스크립트(스파크 잡을 받아서 마스터에 전송)를 실행하는 오퍼레이터
 spark_task_1 = BashOperator(
     task_id='spark.task.1',
     bash_command=f'''
-    sh /Users/kimdohoon/git/spotify-data-pipeline/sh/pyspark-submit.sh \
-    /Users/kimdohoon/git/spotify-data-pipeline/src/spark/neivekim76/spark_task_1.py
+    sh /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/sh/pyspark-submit.sh \
+    /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/src/spark/spark_task_1.py
     ''',
     dag=dag
 )
 
 # spark.task.2
+# 쉘 스크립트(스파크 잡을 받아서 마스터에 전송)를 실행하는 오퍼레이터
 spark_task_2 = BashOperator(
     task_id='spark.task.2',
     bash_command=f'''
-    sh /Users/kimdohoon/git/spotify-data-pipeline/sh/pyspark-submit.sh \
-    /Users/kimdohoon/git/spotify-data-pipeline/src/spark/neivekim76/spark_task_2.py
+    sh /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/sh/pyspark-submit.sh \
+    /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/src/spark/spark_task_2.py
     ''',
     dag=dag
 )

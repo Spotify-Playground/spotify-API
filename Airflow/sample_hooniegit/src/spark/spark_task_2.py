@@ -1,19 +1,15 @@
 # IMPORT MODULES
 import sys
-sys.path.append('/Users/kimdohoon/spotify-data-pipeline/lib')
+sys.path.append('../../lib')
 import spark_modules as lib_spark
-from pyspark.sql.functions import explode, col, expr, first
-
-# VARIABLES
-# DIRECTORY NEEDS TO BE FIXED *********************
-PATH = "file:/Users/kimdohoon/git/spotify-data-pipeline/datas/JSON/playlists/Hot Hits Korea.json"
+from pyspark.sql.functions import expr
 
 # BUILD SPARK SESSION
 spark = lib_spark.build_spark_session()
 
 # READ PARQUET
 # DIRECTORY NEEDS TO BE FIXED *********************
-PARQUET_PATH = 'file:/Users/kimdohoon/git/spotify-data-pipeline/datas/JSON/playlists/parquets/items/*'
+PARQUET_PATH = 'file:/Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/items'
 dataframe = spark.read.parquet(PARQUET_PATH)
 
 df_specification = dataframe.withColumn("track_name", expr("track.name"))
@@ -32,8 +28,6 @@ df_specification = df_specification.withColumn("album_artists", expr("album.arti
 df_specification = df_specification.withColumn("album_artists", expr("album_artists.name"))
 df_specification = df_specification.withColumn("artists_name", expr("artists.name"))
 
-# df_specification = df_specification.withColumn("artists", explode("artists"))
-# df_specification = df_specification.selectExpr("*", "explode(artists) as exploded_col")
 df_arranged = df_specification.select(
     "album_name",
     "album_artists",
@@ -47,7 +41,7 @@ df_arranged.show()
 print("---------------arange is done----------------------")
 
 # DIRECTORY NEEDS TO BE FIXED *********************
-PATH = "file:/Users/kimdohoon/git/spotify-data-pipeline/datas/JSON/playlists/parquets/table"
+PATH = "file:/Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/table"
 lib_spark.store_as_parquet(df_arranged, PATH, True)
 print("---------------load is done----------------------")
 
