@@ -7,7 +7,7 @@
 ### 🧰 설치 프로그램
 1. Spark/spark-3.2.4-bin-hadoop3.2
 2. Zeppelin/zeppelin-0.10.1-bin-all
-a. Airflow/airflow-2.6.1
+3. Airflow/airflow-2.6.1 (DAG 연습을 하고 싶은 경우에만!)
 
 ### 🏃 시작 명령어
 #### Spark 시작 명령어 (job-submit을 할 예정이라면 필요 없음!)
