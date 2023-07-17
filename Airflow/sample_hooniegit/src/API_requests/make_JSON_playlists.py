@@ -1,11 +1,14 @@
 # IMPORT MODULES
-import sys, json
-sys.path.append('../../lib')
+import os, sys, json
+os.chdir('/Users/kimdohoon/git/Spotify-Playground/spotify-API')
+lib_dir = f"{os.getcwd()}/Airflow/sample_hooniegit/lib"
+sys.path.append(lib_dir)
 import spotipy_modules as lib_spotify
 
 # VARIABLES
-DIRECTORY_playlist = '../../datas/JSON/playlists'
-DIRECTORY_wishlist = '../../datas/wishlists/playlists.json'
+DIRECTORY_playlist = f'{os.getcwd()}/Airflow/sample_hooniegit/datas/JSON/playlists'
+DIRECTORY_wishlist = f'{os.getcwd()}/Airflow/sample_hooniegit/datas/wishlists/playlists.json'
+print(f"DIRECTORY_PLAYLIST : {DIRECTOR dY_playlist}")
 
 # PLAYLISTS
 with open(DIRECTORY_wishlist, 'r') as file:

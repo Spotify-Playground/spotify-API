@@ -1,11 +1,13 @@
 # IMPORT MODULES
-import pendulum
+import pendulum, os
 from airflow import DAG
 from datetime import datetime, timedelta
 from airflow.operators.bash import BashOperator
 from airflow.models.variable import Variable
 
-# VARIABLES
+# >> CHANGE THIS DIRECTORY TO RUN THIS SCRIPT
+os.chdir('/Users/kimdohoon/git/Spotify-Playground/spotify-API')
+now_dir = os.getcwd()
 
 # SET TIMEZONE
 local_tz = pendulum.timezone('Europe/London')
@@ -95,12 +97,22 @@ check_execute = BashOperator(
     dag=dag
 )
 
+# check.nowdir
+check_nowdir = BashOperator(
+    task_id='check.nowdir',
+    bash_command=f'''
+    echo {now_dir}
+    ''',
+    dag=dag
+)
+
 # check.wishlist
 # wishlist 파일이 있는지 확인하는 오퍼레이터
 check_wishlist = BashOperator(
     task_id='check.wishlist',
     bash_command=f'''
-    if [ -f "/Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/wishlists/playlists.json" ]; then
+    if [ -f "{now_dir}/Airflow/sample_hooniegit/datas/wishlists/playlists.json" ]; then
+    pwd
     exit 0
     else
     exit 1
@@ -114,7 +126,7 @@ check_wishlist = BashOperator(
 make_JSON_playlist = BashOperator(
     task_id='make.JSON.playlist',
     bash_command=f'''
-    python /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/src/API_requests/make_JSON_playlists.py
+    python {now_dir}/Airflow/sample_hooniegit/src/API_requests/make_JSON_playlists.py
     ''',
     dag=dag
 )
@@ -124,7 +136,7 @@ make_JSON_playlist = BashOperator(
 make_DONE = BashOperator(
     task_id='make.DONE',
     bash_command=f'''
-    touch /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/JSON/playlists/DONE
+    touch {now_dir}/Airflow/sample_hooniegit/datas/JSON/playlists/DONE
     ''',
     dag=dag
 )
@@ -133,8 +145,8 @@ make_DONE = BashOperator(
 # 쉘 스크립트(스파크 마스터와 워커의 실행 여부를 확인하고, 꺼져 있으면 실행)를 실행하는 오퍼레이터
 run_spark = BashOperator(
     task_id='run.spark',
-    bash_command='''
-    if sh /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/sh/run-spark.sh; then echo "Run Spark"
+    bash_command=f'''
+    if sh {now_dir}/Airflow/sample_hooniegit/sh/run-spark.sh $SPARK_HOME; then echo "Run Spark"
     else echo "Spark is already running."
     fi
     ''',
@@ -146,8 +158,8 @@ run_spark = BashOperator(
 spark_task_1 = BashOperator(
     task_id='spark.task.1',
     bash_command=f'''
-    sh /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/sh/pyspark-submit.sh \
-    /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/src/spark/spark_task_1.py
+    sh {now_dir}/Airflow/sample_hooniegit/sh/pyspark-submit.sh \
+    {now_dir}/Airflow/sample_hooniegit/src/spark/spark_task_1.py
     ''',
     dag=dag
 )
@@ -157,12 +169,12 @@ spark_task_1 = BashOperator(
 spark_task_2 = BashOperator(
     task_id='spark.task.2',
     bash_command=f'''
-    sh /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/sh/pyspark-submit.sh \
-    /Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/src/spark/spark_task_2.py
+    sh {now_dir}/Airflow/sample_hooniegit/sh/pyspark-submit.sh \
+    {now_dir}/Airflow/sample_hooniegit/src/spark/spark_task_2.py
     ''',
     dag=dag
 )
 
 # OPERATOR PROCEDURE
-start >> check_execute >> check_wishlist >> make_JSON_playlist >> make_DONE
+start >> check_execute >> check_nowdir >> check_wishlist >> make_JSON_playlist >> make_DONE
 make_DONE >> run_spark >> spark_task_1 >> spark_task_2

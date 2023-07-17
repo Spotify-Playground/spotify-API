@@ -1,19 +1,19 @@
 # IMPORT MODULES
-import sys
-sys.path.append('../../lib')
+import sys, os
+os.chdir('/Users/kimdohoon/git/Spotify-Playground/spotify-API')
+lib_dir = f"{os.getcwd()}/Airflow/sample_hooniegit/lib"
+sys.path.append(lib_dir)
 import spark_modules as lib_spark
 
 # VARIABLES
-PATH = "file:/Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/JSON/playlists/Hot Hits Korea.json"
+PATH = f"file:{os.getcwd()}/Airflow/sample_hooniegit/datas/JSON/playlists/Hot Hits Korea.json"
 
 # BUILD SPARK SESSION
 spark = lib_spark.build_spark_session()
-print("---------------sesion build is done----------------------")
 
 # READ JSON
 dataframe = lib_spark.read_JSON(PATH)
 playlist_name = dataframe.select('name').first()[0]
-print("---------------dataframe is made----------------------")
 
 # PARSE JSON DATAS
 df_tracks = lib_spark.explode_dict(dataframe, "tracks")
@@ -22,7 +22,7 @@ print("---------------df_items is made----------------------")
 
 # SAVE AS PARQUET
 # DIRECTORY NEEDS TO BE FIXED *********************
-PARQUET_PATH = 'file:/Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/items'
+PARQUET_PATH = f'file:{os.getcwd()}/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/items'
 lib_spark.store_as_parquet(df_items, PARQUET_PATH)
 
 # TEST

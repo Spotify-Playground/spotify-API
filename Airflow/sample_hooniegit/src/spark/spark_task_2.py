@@ -1,6 +1,8 @@
 # IMPORT MODULES
-import sys
-sys.path.append('../../lib')
+import sys, os
+os.chdir('/Users/kimdohoon/git/Spotify-Playground/spotify-API')
+lib_dir = f"{os.getcwd()}/Airflow/sample_hooniegit/lib"
+sys.path.append(lib_dir)
 import spark_modules as lib_spark
 from pyspark.sql.functions import expr
 
@@ -9,7 +11,7 @@ spark = lib_spark.build_spark_session()
 
 # READ PARQUET
 # DIRECTORY NEEDS TO BE FIXED *********************
-PARQUET_PATH = 'file:/Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/items'
+PARQUET_PATH = f'file:{os.getcwd()}/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/items'
 dataframe = spark.read.parquet(PARQUET_PATH)
 
 df_specification = dataframe.withColumn("track_name", expr("track.name"))
@@ -41,7 +43,7 @@ df_arranged.show()
 print("---------------arange is done----------------------")
 
 # DIRECTORY NEEDS TO BE FIXED *********************
-PATH = "file:/Users/kimdohoon/git/Spotify-Playground/spotify-API/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/table"
+PATH = f"file:{os.getcwd()}/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/table"
 lib_spark.store_as_parquet(df_arranged, PATH, True)
 print("---------------load is done----------------------")
 
