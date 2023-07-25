@@ -45,6 +45,8 @@ def search_artist_albums(artist_name, dump=False, DIRECTORY=None):
         print(f"{artist_name} albums dump completed")
     return artist_album_info
 
+# MODULE + 개인기록들
+
 # TEST
 if __name__ == "__main__":
     pass
