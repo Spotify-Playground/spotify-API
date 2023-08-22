@@ -1,4 +1,20 @@
-def get_soundtrack(movie_id):
+def get_token(client_id, client_sc):
+    # module import
+    import requests
+
+    # requests
+    headers = {
+        'Content-Type': 'application/x-www-form-urlencoded',
+    }
+    data = f'grant_type=client_credentials&client_id={client_id}&client_secret={client_sc}'.encode()
+    response = requests.post('https://accounts.spotify.com/api/token', headers=headers, data=data).json()
+ 
+    # return access token
+    access_token = response['access_token']
+    return access_token
+
+
+def get_soundtrack(movie_id, access_token):
     # module import
     import requests, json
 
@@ -32,4 +48,8 @@ def get_soundtrack(movie_id):
 
 # Test
 if __name__ == "__main__":
-    get_soundtrack(976573)
+    client_id = "3d918c9fcbe44e099ba189c46cdedd8d"
+    client_sc = "9c1ff7f73f4b424ebaf54977cde68f83"
+
+    access_token = get_token(client_id, client_sc)
+    get_soundtrack(976573, access_token)
