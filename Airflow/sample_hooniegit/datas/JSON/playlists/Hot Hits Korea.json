@@ -6,7 +6,7 @@
     },
     "followers": {
         "href": null,
-        "total": 23124
+        "total": 23455
     },
     "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWT9uTRZAYj0c?additional_types=track",
     "id": "37i9dQZF1DWT9uTRZAYj0c",
@@ -30,12 +30,498 @@
     },
     "primary_color": "#ffffff",
     "public": false,
-    "snapshot_id": "MCw3NzQ4NmIzYjZkN2E2OTU0NTdjZDBmN2M1NTdmZDY4YWZmMTFkNmNh",
+    "snapshot_id": "MCxkYmE0NTlhNWM0MmM0YzE5M2VlMDdhYzljYmIyNGVhMTRkYTIzMWM1",
     "tracks": {
         "href": "https://api.spotify.com/v1/playlists/37i9dQZF1DWT9uTRZAYj0c/tracks?offset=0&limit=100&additional_types=track",
         "items": [
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
+                "added_by": {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/"
+                    },
+                    "href": "https://api.spotify.com/v1/users/",
+                    "id": "",
+                    "type": "user",
+                    "uri": "spotify:user:"
+                },
+                "is_local": false,
+                "primary_color": null,
+                "track": {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/6HaGTQPmzraVmaVxvz6EUc"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/6HaGTQPmzraVmaVxvz6EUc",
+                                "id": "6HaGTQPmzraVmaVxvz6EUc",
+                                "name": "Jung Kook",
+                                "type": "artist",
+                                "uri": "spotify:artist:6HaGTQPmzraVmaVxvz6EUc"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/3MdXrJWsbVzdn6fe5JYkSQ"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/3MdXrJWsbVzdn6fe5JYkSQ",
+                                "id": "3MdXrJWsbVzdn6fe5JYkSQ",
+                                "name": "Latto",
+                                "type": "artist",
+                                "uri": "spotify:artist:3MdXrJWsbVzdn6fe5JYkSQ"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AE",
+                            "AG",
+                            "AL",
+                            "AM",
+                            "AO",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "AZ",
+                            "BA",
+                            "BB",
+                            "BD",
+                            "BE",
+                            "BF",
+                            "BG",
+                            "BH",
+                            "BI",
+                            "BJ",
+                            "BN",
+                            "BO",
+                            "BR",
+                            "BS",
+                            "BT",
+                            "BW",
+                            "BY",
+                            "BZ",
+                            "CA",
+                            "CD",
+                            "CG",
+                            "CH",
+                            "CI",
+                            "CL",
+                            "CM",
+                            "CO",
+                            "CR",
+                            "CV",
+                            "CW",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DJ",
+                            "DK",
+                            "DM",
+                            "DO",
+                            "DZ",
+                            "EC",
+                            "EE",
+                            "EG",
+                            "ES",
+                            "ET",
+                            "FI",
+                            "FJ",
+                            "FM",
+                            "FR",
+                            "GA",
+                            "GB",
+                            "GD",
+                            "GE",
+                            "GH",
+                            "GM",
+                            "GN",
+                            "GQ",
+                            "GR",
+                            "GT",
+                            "GW",
+                            "GY",
+                            "HK",
+                            "HN",
+                            "HR",
+                            "HT",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IN",
+                            "IQ",
+                            "IS",
+                            "IT",
+                            "JM",
+                            "JO",
+                            "JP",
+                            "KE",
+                            "KG",
+                            "KH",
+                            "KI",
+                            "KM",
+                            "KN",
+                            "KR",
+                            "KW",
+                            "KZ",
+                            "LA",
+                            "LB",
+                            "LC",
+                            "LI",
+                            "LK",
+                            "LR",
+                            "LS",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "LY",
+                            "MA",
+                            "MC",
+                            "MD",
+                            "ME",
+                            "MG",
+                            "MH",
+                            "MK",
+                            "ML",
+                            "MN",
+                            "MO",
+                            "MR",
+                            "MT",
+                            "MU",
+                            "MV",
+                            "MW",
+                            "MX",
+                            "MY",
+                            "MZ",
+                            "NA",
+                            "NE",
+                            "NG",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NP",
+                            "NR",
+                            "NZ",
+                            "OM",
+                            "PA",
+                            "PE",
+                            "PG",
+                            "PH",
+                            "PK",
+                            "PL",
+                            "PS",
+                            "PT",
+                            "PW",
+                            "PY",
+                            "QA",
+                            "RO",
+                            "RS",
+                            "RW",
+                            "SA",
+                            "SB",
+                            "SC",
+                            "SE",
+                            "SG",
+                            "SI",
+                            "SK",
+                            "SL",
+                            "SM",
+                            "SN",
+                            "SR",
+                            "ST",
+                            "SV",
+                            "SZ",
+                            "TD",
+                            "TG",
+                            "TH",
+                            "TJ",
+                            "TL",
+                            "TN",
+                            "TO",
+                            "TR",
+                            "TT",
+                            "TV",
+                            "TW",
+                            "TZ",
+                            "UA",
+                            "UG",
+                            "US",
+                            "UY",
+                            "UZ",
+                            "VC",
+                            "VE",
+                            "VN",
+                            "VU",
+                            "WS",
+                            "XK",
+                            "ZA",
+                            "ZM",
+                            "ZW"
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/53985D8g3JcGBoULSOYYKX"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/53985D8g3JcGBoULSOYYKX",
+                        "id": "53985D8g3JcGBoULSOYYKX",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b273bf5cce5a0e1ed03a626bdd74",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e02bf5cce5a0e1ed03a626bdd74",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d00004851bf5cce5a0e1ed03a626bdd74",
+                                "width": 64
+                            }
+                        ],
+                        "name": "Seven (feat. Latto)",
+                        "release_date": "2023-07-14",
+                        "release_date_precision": "day",
+                        "total_tracks": 3,
+                        "type": "album",
+                        "uri": "spotify:album:53985D8g3JcGBoULSOYYKX"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6HaGTQPmzraVmaVxvz6EUc"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6HaGTQPmzraVmaVxvz6EUc",
+                            "id": "6HaGTQPmzraVmaVxvz6EUc",
+                            "name": "Jung Kook",
+                            "type": "artist",
+                            "uri": "spotify:artist:6HaGTQPmzraVmaVxvz6EUc"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/3MdXrJWsbVzdn6fe5JYkSQ"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/3MdXrJWsbVzdn6fe5JYkSQ",
+                            "id": "3MdXrJWsbVzdn6fe5JYkSQ",
+                            "name": "Latto",
+                            "type": "artist",
+                            "uri": "spotify:artist:3MdXrJWsbVzdn6fe5JYkSQ"
+                        }
+                    ],
+                    "available_markets": [
+                        "AR",
+                        "AU",
+                        "AT",
+                        "BE",
+                        "BO",
+                        "BR",
+                        "BG",
+                        "CA",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DK",
+                        "DO",
+                        "DE",
+                        "EC",
+                        "EE",
+                        "SV",
+                        "FI",
+                        "FR",
+                        "GR",
+                        "GT",
+                        "HN",
+                        "HK",
+                        "HU",
+                        "IS",
+                        "IE",
+                        "IT",
+                        "LV",
+                        "LT",
+                        "LU",
+                        "MY",
+                        "MT",
+                        "MX",
+                        "NL",
+                        "NZ",
+                        "NI",
+                        "NO",
+                        "PA",
+                        "PY",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "SG",
+                        "SK",
+                        "ES",
+                        "SE",
+                        "CH",
+                        "TW",
+                        "TR",
+                        "UY",
+                        "US",
+                        "GB",
+                        "AD",
+                        "LI",
+                        "MC",
+                        "ID",
+                        "JP",
+                        "TH",
+                        "VN",
+                        "RO",
+                        "IL",
+                        "ZA",
+                        "SA",
+                        "AE",
+                        "BH",
+                        "QA",
+                        "OM",
+                        "KW",
+                        "EG",
+                        "MA",
+                        "DZ",
+                        "TN",
+                        "LB",
+                        "JO",
+                        "PS",
+                        "IN",
+                        "BY",
+                        "KZ",
+                        "MD",
+                        "UA",
+                        "AL",
+                        "BA",
+                        "HR",
+                        "ME",
+                        "MK",
+                        "RS",
+                        "SI",
+                        "KR",
+                        "BD",
+                        "PK",
+                        "LK",
+                        "GH",
+                        "KE",
+                        "NG",
+                        "TZ",
+                        "UG",
+                        "AG",
+                        "AM",
+                        "BS",
+                        "BB",
+                        "BZ",
+                        "BT",
+                        "BW",
+                        "BF",
+                        "CV",
+                        "CW",
+                        "DM",
+                        "FJ",
+                        "GM",
+                        "GE",
+                        "GD",
+                        "GW",
+                        "GY",
+                        "HT",
+                        "JM",
+                        "KI",
+                        "LS",
+                        "LR",
+                        "MW",
+                        "MV",
+                        "ML",
+                        "MH",
+                        "FM",
+                        "NA",
+                        "NR",
+                        "NE",
+                        "PW",
+                        "PG",
+                        "WS",
+                        "SM",
+                        "ST",
+                        "SN",
+                        "SC",
+                        "SL",
+                        "SB",
+                        "KN",
+                        "LC",
+                        "VC",
+                        "SR",
+                        "TL",
+                        "TO",
+                        "TT",
+                        "TV",
+                        "VU",
+                        "AZ",
+                        "BN",
+                        "BI",
+                        "KH",
+                        "CM",
+                        "TD",
+                        "KM",
+                        "GQ",
+                        "SZ",
+                        "GA",
+                        "GN",
+                        "KG",
+                        "LA",
+                        "MO",
+                        "MR",
+                        "MN",
+                        "NP",
+                        "RW",
+                        "TG",
+                        "UZ",
+                        "ZW",
+                        "BJ",
+                        "MG",
+                        "MU",
+                        "MZ",
+                        "AO",
+                        "CI",
+                        "DJ",
+                        "ZM",
+                        "CD",
+                        "CG",
+                        "IQ",
+                        "LY",
+                        "TJ",
+                        "VE",
+                        "ET",
+                        "XK"
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 184160,
+                    "episode": false,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USA2P2330092"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/5Avril3IZ26DPVFHbJX8o6"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/5Avril3IZ26DPVFHbJX8o6",
+                    "id": "5Avril3IZ26DPVFHbJX8o6",
+                    "is_local": false,
+                    "name": "Seven (feat. Latto) (Clean Ver.)",
+                    "popularity": 94,
+                    "preview_url": "https://p.scdn.co/mp3-preview/dd8dfb2769c5dd2f01a920adb468d8de5e28a329?cid=3d918c9fcbe44e099ba189c46cdedd8d",
+                    "track": true,
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:5Avril3IZ26DPVFHbJX8o6"
+                },
+                "video_thumbnail": {
+                    "url": null
+                }
+            },
+            {
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -489,7 +975,7 @@
                     "id": "5sdQOyqq2IDhvmx2lHOpwd",
                     "is_local": false,
                     "name": "Super Shy",
-                    "popularity": 91,
+                    "popularity": 94,
                     "preview_url": "https://p.scdn.co/mp3-preview/dab062e2cc708a2680ce84953a3581c5a679a230?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 2,
@@ -501,7 +987,473 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
+                "added_by": {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/"
+                    },
+                    "href": "https://api.spotify.com/v1/users/",
+                    "id": "",
+                    "type": "user",
+                    "uri": "spotify:user:"
+                },
+                "is_local": false,
+                "primary_color": null,
+                "track": {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
+                                "id": "6HvZYsbFfjnjFrWF950C9d",
+                                "name": "NewJeans",
+                                "type": "artist",
+                                "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AE",
+                            "AG",
+                            "AL",
+                            "AM",
+                            "AO",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "AZ",
+                            "BA",
+                            "BB",
+                            "BD",
+                            "BE",
+                            "BF",
+                            "BG",
+                            "BH",
+                            "BI",
+                            "BJ",
+                            "BN",
+                            "BO",
+                            "BR",
+                            "BS",
+                            "BT",
+                            "BW",
+                            "BY",
+                            "BZ",
+                            "CA",
+                            "CD",
+                            "CG",
+                            "CH",
+                            "CI",
+                            "CL",
+                            "CM",
+                            "CO",
+                            "CR",
+                            "CV",
+                            "CW",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DJ",
+                            "DK",
+                            "DM",
+                            "DO",
+                            "DZ",
+                            "EC",
+                            "EE",
+                            "EG",
+                            "ES",
+                            "ET",
+                            "FI",
+                            "FJ",
+                            "FM",
+                            "FR",
+                            "GA",
+                            "GB",
+                            "GD",
+                            "GE",
+                            "GH",
+                            "GM",
+                            "GN",
+                            "GQ",
+                            "GR",
+                            "GT",
+                            "GW",
+                            "GY",
+                            "HK",
+                            "HN",
+                            "HR",
+                            "HT",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IN",
+                            "IQ",
+                            "IS",
+                            "IT",
+                            "JM",
+                            "JO",
+                            "JP",
+                            "KE",
+                            "KG",
+                            "KH",
+                            "KI",
+                            "KM",
+                            "KN",
+                            "KR",
+                            "KW",
+                            "KZ",
+                            "LA",
+                            "LB",
+                            "LC",
+                            "LI",
+                            "LK",
+                            "LR",
+                            "LS",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "LY",
+                            "MA",
+                            "MC",
+                            "MD",
+                            "ME",
+                            "MG",
+                            "MH",
+                            "MK",
+                            "ML",
+                            "MN",
+                            "MO",
+                            "MR",
+                            "MT",
+                            "MU",
+                            "MV",
+                            "MW",
+                            "MX",
+                            "MY",
+                            "MZ",
+                            "NA",
+                            "NE",
+                            "NG",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NP",
+                            "NR",
+                            "NZ",
+                            "OM",
+                            "PA",
+                            "PE",
+                            "PG",
+                            "PH",
+                            "PK",
+                            "PL",
+                            "PS",
+                            "PT",
+                            "PW",
+                            "PY",
+                            "QA",
+                            "RO",
+                            "RS",
+                            "RW",
+                            "SA",
+                            "SB",
+                            "SC",
+                            "SE",
+                            "SG",
+                            "SI",
+                            "SK",
+                            "SL",
+                            "SM",
+                            "SN",
+                            "SR",
+                            "ST",
+                            "SV",
+                            "SZ",
+                            "TD",
+                            "TG",
+                            "TH",
+                            "TJ",
+                            "TL",
+                            "TN",
+                            "TO",
+                            "TR",
+                            "TT",
+                            "TV",
+                            "TW",
+                            "TZ",
+                            "UA",
+                            "UG",
+                            "US",
+                            "UY",
+                            "UZ",
+                            "VC",
+                            "VE",
+                            "VN",
+                            "VU",
+                            "WS",
+                            "XK",
+                            "ZA",
+                            "ZM",
+                            "ZW"
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4N1fROq2oeyLGAlQ1C1j18"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/4N1fROq2oeyLGAlQ1C1j18",
+                        "id": "4N1fROq2oeyLGAlQ1C1j18",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2730744690248ef3ba7b776ea7b",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e020744690248ef3ba7b776ea7b",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b",
+                                "width": 64
+                            }
+                        ],
+                        "name": "NewJeans 2nd EP 'Get Up'",
+                        "release_date": "2023-07-21",
+                        "release_date_precision": "day",
+                        "total_tracks": 6,
+                        "type": "album",
+                        "uri": "spotify:album:4N1fROq2oeyLGAlQ1C1j18"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
+                            "id": "6HvZYsbFfjnjFrWF950C9d",
+                            "name": "NewJeans",
+                            "type": "artist",
+                            "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+                        }
+                    ],
+                    "available_markets": [
+                        "AR",
+                        "AU",
+                        "AT",
+                        "BE",
+                        "BO",
+                        "BR",
+                        "BG",
+                        "CA",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DK",
+                        "DO",
+                        "DE",
+                        "EC",
+                        "EE",
+                        "SV",
+                        "FI",
+                        "FR",
+                        "GR",
+                        "GT",
+                        "HN",
+                        "HK",
+                        "HU",
+                        "IS",
+                        "IE",
+                        "IT",
+                        "LV",
+                        "LT",
+                        "LU",
+                        "MY",
+                        "MT",
+                        "MX",
+                        "NL",
+                        "NZ",
+                        "NI",
+                        "NO",
+                        "PA",
+                        "PY",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "SG",
+                        "SK",
+                        "ES",
+                        "SE",
+                        "CH",
+                        "TW",
+                        "TR",
+                        "UY",
+                        "US",
+                        "GB",
+                        "AD",
+                        "LI",
+                        "MC",
+                        "ID",
+                        "JP",
+                        "TH",
+                        "VN",
+                        "RO",
+                        "IL",
+                        "ZA",
+                        "SA",
+                        "AE",
+                        "BH",
+                        "QA",
+                        "OM",
+                        "KW",
+                        "EG",
+                        "MA",
+                        "DZ",
+                        "TN",
+                        "LB",
+                        "JO",
+                        "PS",
+                        "IN",
+                        "BY",
+                        "KZ",
+                        "MD",
+                        "UA",
+                        "AL",
+                        "BA",
+                        "HR",
+                        "ME",
+                        "MK",
+                        "RS",
+                        "SI",
+                        "KR",
+                        "BD",
+                        "PK",
+                        "LK",
+                        "GH",
+                        "KE",
+                        "NG",
+                        "TZ",
+                        "UG",
+                        "AG",
+                        "AM",
+                        "BS",
+                        "BB",
+                        "BZ",
+                        "BT",
+                        "BW",
+                        "BF",
+                        "CV",
+                        "CW",
+                        "DM",
+                        "FJ",
+                        "GM",
+                        "GE",
+                        "GD",
+                        "GW",
+                        "GY",
+                        "HT",
+                        "JM",
+                        "KI",
+                        "LS",
+                        "LR",
+                        "MW",
+                        "MV",
+                        "ML",
+                        "MH",
+                        "FM",
+                        "NA",
+                        "NR",
+                        "NE",
+                        "PW",
+                        "PG",
+                        "WS",
+                        "SM",
+                        "ST",
+                        "SN",
+                        "SC",
+                        "SL",
+                        "SB",
+                        "KN",
+                        "LC",
+                        "VC",
+                        "SR",
+                        "TL",
+                        "TO",
+                        "TT",
+                        "TV",
+                        "VU",
+                        "AZ",
+                        "BN",
+                        "BI",
+                        "KH",
+                        "CM",
+                        "TD",
+                        "KM",
+                        "GQ",
+                        "SZ",
+                        "GA",
+                        "GN",
+                        "KG",
+                        "LA",
+                        "MO",
+                        "MR",
+                        "MN",
+                        "NP",
+                        "RW",
+                        "TG",
+                        "UZ",
+                        "ZW",
+                        "BJ",
+                        "MG",
+                        "MU",
+                        "MZ",
+                        "AO",
+                        "CI",
+                        "DJ",
+                        "ZM",
+                        "CD",
+                        "CG",
+                        "IQ",
+                        "LY",
+                        "TJ",
+                        "VE",
+                        "ET",
+                        "XK"
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 147880,
+                    "episode": false,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USA2P2330072"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/02wk5BttM0QL38ERjLPQJB"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/02wk5BttM0QL38ERjLPQJB",
+                    "id": "02wk5BttM0QL38ERjLPQJB",
+                    "is_local": false,
+                    "name": "Cool With You",
+                    "popularity": 83,
+                    "preview_url": "https://p.scdn.co/mp3-preview/598e05a7fd20278aca5477e1993b252e8fc97daf?cid=3d918c9fcbe44e099ba189c46cdedd8d",
+                    "track": true,
+                    "track_number": 4,
+                    "type": "track",
+                    "uri": "spotify:track:02wk5BttM0QL38ERjLPQJB"
+                },
+                "video_thumbnail": {
+                    "url": null
+                }
+            },
+            {
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -967,7 +1919,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -1431,7 +2383,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -1883,7 +2835,7 @@
                     "id": "70t7Q6AYG6ZgTYmJWcnkUM",
                     "is_local": false,
                     "name": "I AM",
-                    "popularity": 89,
+                    "popularity": 88,
                     "preview_url": "https://p.scdn.co/mp3-preview/8440851e1998ebda7b002b1c1758058a80c293d1?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 2,
@@ -1895,7 +2847,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -2357,7 +3309,473 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
+                "added_by": {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/"
+                    },
+                    "href": "https://api.spotify.com/v1/users/",
+                    "id": "",
+                    "type": "user",
+                    "uri": "spotify:user:"
+                },
+                "is_local": false,
+                "primary_color": null,
+                "track": {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
+                                "id": "6HvZYsbFfjnjFrWF950C9d",
+                                "name": "NewJeans",
+                                "type": "artist",
+                                "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AE",
+                            "AG",
+                            "AL",
+                            "AM",
+                            "AO",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "AZ",
+                            "BA",
+                            "BB",
+                            "BD",
+                            "BE",
+                            "BF",
+                            "BG",
+                            "BH",
+                            "BI",
+                            "BJ",
+                            "BN",
+                            "BO",
+                            "BR",
+                            "BS",
+                            "BT",
+                            "BW",
+                            "BY",
+                            "BZ",
+                            "CA",
+                            "CD",
+                            "CG",
+                            "CH",
+                            "CI",
+                            "CL",
+                            "CM",
+                            "CO",
+                            "CR",
+                            "CV",
+                            "CW",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DJ",
+                            "DK",
+                            "DM",
+                            "DO",
+                            "DZ",
+                            "EC",
+                            "EE",
+                            "EG",
+                            "ES",
+                            "ET",
+                            "FI",
+                            "FJ",
+                            "FM",
+                            "FR",
+                            "GA",
+                            "GB",
+                            "GD",
+                            "GE",
+                            "GH",
+                            "GM",
+                            "GN",
+                            "GQ",
+                            "GR",
+                            "GT",
+                            "GW",
+                            "GY",
+                            "HK",
+                            "HN",
+                            "HR",
+                            "HT",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IN",
+                            "IQ",
+                            "IS",
+                            "IT",
+                            "JM",
+                            "JO",
+                            "JP",
+                            "KE",
+                            "KG",
+                            "KH",
+                            "KI",
+                            "KM",
+                            "KN",
+                            "KR",
+                            "KW",
+                            "KZ",
+                            "LA",
+                            "LB",
+                            "LC",
+                            "LI",
+                            "LK",
+                            "LR",
+                            "LS",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "LY",
+                            "MA",
+                            "MC",
+                            "MD",
+                            "ME",
+                            "MG",
+                            "MH",
+                            "MK",
+                            "ML",
+                            "MN",
+                            "MO",
+                            "MR",
+                            "MT",
+                            "MU",
+                            "MV",
+                            "MW",
+                            "MX",
+                            "MY",
+                            "MZ",
+                            "NA",
+                            "NE",
+                            "NG",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NP",
+                            "NR",
+                            "NZ",
+                            "OM",
+                            "PA",
+                            "PE",
+                            "PG",
+                            "PH",
+                            "PK",
+                            "PL",
+                            "PS",
+                            "PT",
+                            "PW",
+                            "PY",
+                            "QA",
+                            "RO",
+                            "RS",
+                            "RW",
+                            "SA",
+                            "SB",
+                            "SC",
+                            "SE",
+                            "SG",
+                            "SI",
+                            "SK",
+                            "SL",
+                            "SM",
+                            "SN",
+                            "SR",
+                            "ST",
+                            "SV",
+                            "SZ",
+                            "TD",
+                            "TG",
+                            "TH",
+                            "TJ",
+                            "TL",
+                            "TN",
+                            "TO",
+                            "TR",
+                            "TT",
+                            "TV",
+                            "TW",
+                            "TZ",
+                            "UA",
+                            "UG",
+                            "US",
+                            "UY",
+                            "UZ",
+                            "VC",
+                            "VE",
+                            "VN",
+                            "VU",
+                            "WS",
+                            "XK",
+                            "ZA",
+                            "ZM",
+                            "ZW"
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/4N1fROq2oeyLGAlQ1C1j18"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/4N1fROq2oeyLGAlQ1C1j18",
+                        "id": "4N1fROq2oeyLGAlQ1C1j18",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2730744690248ef3ba7b776ea7b",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e020744690248ef3ba7b776ea7b",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048510744690248ef3ba7b776ea7b",
+                                "width": 64
+                            }
+                        ],
+                        "name": "NewJeans 2nd EP 'Get Up'",
+                        "release_date": "2023-07-21",
+                        "release_date_precision": "day",
+                        "total_tracks": 6,
+                        "type": "album",
+                        "uri": "spotify:album:4N1fROq2oeyLGAlQ1C1j18"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/6HvZYsbFfjnjFrWF950C9d",
+                            "id": "6HvZYsbFfjnjFrWF950C9d",
+                            "name": "NewJeans",
+                            "type": "artist",
+                            "uri": "spotify:artist:6HvZYsbFfjnjFrWF950C9d"
+                        }
+                    ],
+                    "available_markets": [
+                        "AR",
+                        "AU",
+                        "AT",
+                        "BE",
+                        "BO",
+                        "BR",
+                        "BG",
+                        "CA",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DK",
+                        "DO",
+                        "DE",
+                        "EC",
+                        "EE",
+                        "SV",
+                        "FI",
+                        "FR",
+                        "GR",
+                        "GT",
+                        "HN",
+                        "HK",
+                        "HU",
+                        "IS",
+                        "IE",
+                        "IT",
+                        "LV",
+                        "LT",
+                        "LU",
+                        "MY",
+                        "MT",
+                        "MX",
+                        "NL",
+                        "NZ",
+                        "NI",
+                        "NO",
+                        "PA",
+                        "PY",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "SG",
+                        "SK",
+                        "ES",
+                        "SE",
+                        "CH",
+                        "TW",
+                        "TR",
+                        "UY",
+                        "US",
+                        "GB",
+                        "AD",
+                        "LI",
+                        "MC",
+                        "ID",
+                        "JP",
+                        "TH",
+                        "VN",
+                        "RO",
+                        "IL",
+                        "ZA",
+                        "SA",
+                        "AE",
+                        "BH",
+                        "QA",
+                        "OM",
+                        "KW",
+                        "EG",
+                        "MA",
+                        "DZ",
+                        "TN",
+                        "LB",
+                        "JO",
+                        "PS",
+                        "IN",
+                        "BY",
+                        "KZ",
+                        "MD",
+                        "UA",
+                        "AL",
+                        "BA",
+                        "HR",
+                        "ME",
+                        "MK",
+                        "RS",
+                        "SI",
+                        "KR",
+                        "BD",
+                        "PK",
+                        "LK",
+                        "GH",
+                        "KE",
+                        "NG",
+                        "TZ",
+                        "UG",
+                        "AG",
+                        "AM",
+                        "BS",
+                        "BB",
+                        "BZ",
+                        "BT",
+                        "BW",
+                        "BF",
+                        "CV",
+                        "CW",
+                        "DM",
+                        "FJ",
+                        "GM",
+                        "GE",
+                        "GD",
+                        "GW",
+                        "GY",
+                        "HT",
+                        "JM",
+                        "KI",
+                        "LS",
+                        "LR",
+                        "MW",
+                        "MV",
+                        "ML",
+                        "MH",
+                        "FM",
+                        "NA",
+                        "NR",
+                        "NE",
+                        "PW",
+                        "PG",
+                        "WS",
+                        "SM",
+                        "ST",
+                        "SN",
+                        "SC",
+                        "SL",
+                        "SB",
+                        "KN",
+                        "LC",
+                        "VC",
+                        "SR",
+                        "TL",
+                        "TO",
+                        "TT",
+                        "TV",
+                        "VU",
+                        "AZ",
+                        "BN",
+                        "BI",
+                        "KH",
+                        "CM",
+                        "TD",
+                        "KM",
+                        "GQ",
+                        "SZ",
+                        "GA",
+                        "GN",
+                        "KG",
+                        "LA",
+                        "MO",
+                        "MR",
+                        "MN",
+                        "NP",
+                        "RW",
+                        "TG",
+                        "UZ",
+                        "ZW",
+                        "BJ",
+                        "MG",
+                        "MU",
+                        "MZ",
+                        "AO",
+                        "CI",
+                        "DJ",
+                        "ZM",
+                        "CD",
+                        "CG",
+                        "IQ",
+                        "LY",
+                        "TJ",
+                        "VE",
+                        "ET",
+                        "XK"
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 151373,
+                    "episode": false,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USA2P2330071"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/56v8WEnGzLByGsDAXDiv4d"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/56v8WEnGzLByGsDAXDiv4d",
+                    "id": "56v8WEnGzLByGsDAXDiv4d",
+                    "is_local": false,
+                    "name": "ETA",
+                    "popularity": 82,
+                    "preview_url": "https://p.scdn.co/mp3-preview/e076cd31805e449dae7d991711df5f2ff920b375?cid=3d918c9fcbe44e099ba189c46cdedd8d",
+                    "track": true,
+                    "track_number": 3,
+                    "type": "track",
+                    "uri": "spotify:track:56v8WEnGzLByGsDAXDiv4d"
+                },
+                "video_thumbnail": {
+                    "url": null
+                }
+            },
+            {
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -2821,7 +4239,7 @@
                     "id": "51vRumtqbkNW9wrKfESwfu",
                     "is_local": false,
                     "name": "UNFORGIVEN (feat. Nile Rodgers)",
-                    "popularity": 89,
+                    "popularity": 88,
                     "preview_url": "https://p.scdn.co/mp3-preview/ba72474a4c4c3a63f8c6d00c561ad40be6e1e7c7?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 8,
@@ -2833,7 +4251,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -3299,7 +4717,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -3753,7 +5171,7 @@
                     "id": "5IAESfJjmOYu7cHyX557kz",
                     "is_local": false,
                     "name": "Take Two",
-                    "popularity": 95,
+                    "popularity": 94,
                     "preview_url": "https://p.scdn.co/mp3-preview/ef43da30a06fcad16898e9fff1cadd0ccf953fc9?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -3765,7 +5183,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -4231,7 +5649,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -4573,7 +5991,7 @@
                     "id": "69CrOS7vEHIrhC2ILyEi0s",
                     "is_local": false,
                     "name": "FLOWER",
-                    "popularity": 84,
+                    "popularity": 83,
                     "preview_url": "https://p.scdn.co/mp3-preview/09740d259ca59790be55c998db9b4220024ec294?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -4585,7 +6003,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -5051,7 +6469,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -5515,7 +6933,493 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
+                "added_by": {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/"
+                    },
+                    "href": "https://api.spotify.com/v1/users/",
+                    "id": "",
+                    "type": "user",
+                    "uri": "spotify:user:"
+                },
+                "is_local": false,
+                "primary_color": null,
+                "track": {
+                    "album": {
+                        "album_type": "single",
+                        "artists": [
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/0ghlgldX5Dd6720Q3qFyQB",
+                                "id": "0ghlgldX5Dd6720Q3qFyQB",
+                                "name": "TOMORROW X TOGETHER",
+                                "type": "artist",
+                                "uri": "spotify:artist:0ghlgldX5Dd6720Q3qFyQB"
+                            },
+                            {
+                                "external_urls": {
+                                    "spotify": "https://open.spotify.com/artist/7gOdHgIoIKoe4i9Tta6qdD"
+                                },
+                                "href": "https://api.spotify.com/v1/artists/7gOdHgIoIKoe4i9Tta6qdD",
+                                "id": "7gOdHgIoIKoe4i9Tta6qdD",
+                                "name": "Jonas Brothers",
+                                "type": "artist",
+                                "uri": "spotify:artist:7gOdHgIoIKoe4i9Tta6qdD"
+                            }
+                        ],
+                        "available_markets": [
+                            "AD",
+                            "AE",
+                            "AG",
+                            "AL",
+                            "AM",
+                            "AO",
+                            "AR",
+                            "AT",
+                            "AU",
+                            "AZ",
+                            "BA",
+                            "BB",
+                            "BD",
+                            "BE",
+                            "BF",
+                            "BG",
+                            "BH",
+                            "BI",
+                            "BJ",
+                            "BN",
+                            "BO",
+                            "BR",
+                            "BS",
+                            "BT",
+                            "BW",
+                            "BY",
+                            "BZ",
+                            "CA",
+                            "CD",
+                            "CG",
+                            "CH",
+                            "CI",
+                            "CL",
+                            "CM",
+                            "CO",
+                            "CR",
+                            "CV",
+                            "CW",
+                            "CY",
+                            "CZ",
+                            "DE",
+                            "DJ",
+                            "DK",
+                            "DM",
+                            "DO",
+                            "DZ",
+                            "EC",
+                            "EE",
+                            "EG",
+                            "ES",
+                            "ET",
+                            "FI",
+                            "FJ",
+                            "FM",
+                            "FR",
+                            "GA",
+                            "GB",
+                            "GD",
+                            "GE",
+                            "GH",
+                            "GM",
+                            "GN",
+                            "GQ",
+                            "GR",
+                            "GT",
+                            "GW",
+                            "GY",
+                            "HK",
+                            "HN",
+                            "HR",
+                            "HT",
+                            "HU",
+                            "ID",
+                            "IE",
+                            "IL",
+                            "IN",
+                            "IQ",
+                            "IS",
+                            "IT",
+                            "JM",
+                            "JO",
+                            "JP",
+                            "KE",
+                            "KG",
+                            "KH",
+                            "KI",
+                            "KM",
+                            "KN",
+                            "KR",
+                            "KW",
+                            "KZ",
+                            "LA",
+                            "LB",
+                            "LC",
+                            "LI",
+                            "LK",
+                            "LR",
+                            "LS",
+                            "LT",
+                            "LU",
+                            "LV",
+                            "LY",
+                            "MA",
+                            "MC",
+                            "MD",
+                            "ME",
+                            "MG",
+                            "MH",
+                            "MK",
+                            "ML",
+                            "MN",
+                            "MO",
+                            "MR",
+                            "MT",
+                            "MU",
+                            "MV",
+                            "MW",
+                            "MX",
+                            "MY",
+                            "MZ",
+                            "NA",
+                            "NE",
+                            "NG",
+                            "NI",
+                            "NL",
+                            "NO",
+                            "NP",
+                            "NR",
+                            "NZ",
+                            "OM",
+                            "PA",
+                            "PE",
+                            "PG",
+                            "PH",
+                            "PK",
+                            "PL",
+                            "PS",
+                            "PT",
+                            "PW",
+                            "PY",
+                            "QA",
+                            "RO",
+                            "RS",
+                            "RW",
+                            "SA",
+                            "SB",
+                            "SC",
+                            "SE",
+                            "SG",
+                            "SI",
+                            "SK",
+                            "SL",
+                            "SM",
+                            "SN",
+                            "SR",
+                            "ST",
+                            "SV",
+                            "SZ",
+                            "TD",
+                            "TG",
+                            "TH",
+                            "TJ",
+                            "TL",
+                            "TN",
+                            "TO",
+                            "TR",
+                            "TT",
+                            "TV",
+                            "TW",
+                            "TZ",
+                            "UA",
+                            "UG",
+                            "US",
+                            "UY",
+                            "UZ",
+                            "VC",
+                            "VE",
+                            "VN",
+                            "VU",
+                            "WS",
+                            "XK",
+                            "ZA",
+                            "ZM",
+                            "ZW"
+                        ],
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/album/0Z1ebaoFTQDDzebTh3fD2P"
+                        },
+                        "href": "https://api.spotify.com/v1/albums/0Z1ebaoFTQDDzebTh3fD2P",
+                        "id": "0Z1ebaoFTQDDzebTh3fD2P",
+                        "images": [
+                            {
+                                "height": 640,
+                                "url": "https://i.scdn.co/image/ab67616d0000b2732e01544530dbd825e0219965",
+                                "width": 640
+                            },
+                            {
+                                "height": 300,
+                                "url": "https://i.scdn.co/image/ab67616d00001e022e01544530dbd825e0219965",
+                                "width": 300
+                            },
+                            {
+                                "height": 64,
+                                "url": "https://i.scdn.co/image/ab67616d000048512e01544530dbd825e0219965",
+                                "width": 64
+                            }
+                        ],
+                        "name": "Do It Like That",
+                        "release_date": "2023-07-07",
+                        "release_date_precision": "day",
+                        "total_tracks": 1,
+                        "type": "album",
+                        "uri": "spotify:album:0Z1ebaoFTQDDzebTh3fD2P"
+                    },
+                    "artists": [
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/0ghlgldX5Dd6720Q3qFyQB"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/0ghlgldX5Dd6720Q3qFyQB",
+                            "id": "0ghlgldX5Dd6720Q3qFyQB",
+                            "name": "TOMORROW X TOGETHER",
+                            "type": "artist",
+                            "uri": "spotify:artist:0ghlgldX5Dd6720Q3qFyQB"
+                        },
+                        {
+                            "external_urls": {
+                                "spotify": "https://open.spotify.com/artist/7gOdHgIoIKoe4i9Tta6qdD"
+                            },
+                            "href": "https://api.spotify.com/v1/artists/7gOdHgIoIKoe4i9Tta6qdD",
+                            "id": "7gOdHgIoIKoe4i9Tta6qdD",
+                            "name": "Jonas Brothers",
+                            "type": "artist",
+                            "uri": "spotify:artist:7gOdHgIoIKoe4i9Tta6qdD"
+                        }
+                    ],
+                    "available_markets": [
+                        "AR",
+                        "AU",
+                        "AT",
+                        "BE",
+                        "BO",
+                        "BR",
+                        "BG",
+                        "CA",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DK",
+                        "DO",
+                        "DE",
+                        "EC",
+                        "EE",
+                        "SV",
+                        "FI",
+                        "FR",
+                        "GR",
+                        "GT",
+                        "HN",
+                        "HK",
+                        "HU",
+                        "IS",
+                        "IE",
+                        "IT",
+                        "LV",
+                        "LT",
+                        "LU",
+                        "MY",
+                        "MT",
+                        "MX",
+                        "NL",
+                        "NZ",
+                        "NI",
+                        "NO",
+                        "PA",
+                        "PY",
+                        "PE",
+                        "PH",
+                        "PL",
+                        "PT",
+                        "SG",
+                        "SK",
+                        "ES",
+                        "SE",
+                        "CH",
+                        "TW",
+                        "TR",
+                        "UY",
+                        "US",
+                        "GB",
+                        "AD",
+                        "LI",
+                        "MC",
+                        "ID",
+                        "JP",
+                        "TH",
+                        "VN",
+                        "RO",
+                        "IL",
+                        "ZA",
+                        "SA",
+                        "AE",
+                        "BH",
+                        "QA",
+                        "OM",
+                        "KW",
+                        "EG",
+                        "MA",
+                        "DZ",
+                        "TN",
+                        "LB",
+                        "JO",
+                        "PS",
+                        "IN",
+                        "BY",
+                        "KZ",
+                        "MD",
+                        "UA",
+                        "AL",
+                        "BA",
+                        "HR",
+                        "ME",
+                        "MK",
+                        "RS",
+                        "SI",
+                        "KR",
+                        "BD",
+                        "PK",
+                        "LK",
+                        "GH",
+                        "KE",
+                        "NG",
+                        "TZ",
+                        "UG",
+                        "AG",
+                        "AM",
+                        "BS",
+                        "BB",
+                        "BZ",
+                        "BT",
+                        "BW",
+                        "BF",
+                        "CV",
+                        "CW",
+                        "DM",
+                        "FJ",
+                        "GM",
+                        "GE",
+                        "GD",
+                        "GW",
+                        "GY",
+                        "HT",
+                        "JM",
+                        "KI",
+                        "LS",
+                        "LR",
+                        "MW",
+                        "MV",
+                        "ML",
+                        "MH",
+                        "FM",
+                        "NA",
+                        "NR",
+                        "NE",
+                        "PW",
+                        "PG",
+                        "WS",
+                        "SM",
+                        "ST",
+                        "SN",
+                        "SC",
+                        "SL",
+                        "SB",
+                        "KN",
+                        "LC",
+                        "VC",
+                        "SR",
+                        "TL",
+                        "TO",
+                        "TT",
+                        "TV",
+                        "VU",
+                        "AZ",
+                        "BN",
+                        "BI",
+                        "KH",
+                        "CM",
+                        "TD",
+                        "KM",
+                        "GQ",
+                        "SZ",
+                        "GA",
+                        "GN",
+                        "KG",
+                        "LA",
+                        "MO",
+                        "MR",
+                        "MN",
+                        "NP",
+                        "RW",
+                        "TG",
+                        "UZ",
+                        "ZW",
+                        "BJ",
+                        "MG",
+                        "MU",
+                        "MZ",
+                        "AO",
+                        "CI",
+                        "DJ",
+                        "ZM",
+                        "CD",
+                        "CG",
+                        "IQ",
+                        "LY",
+                        "TJ",
+                        "VE",
+                        "ET",
+                        "XK"
+                    ],
+                    "disc_number": 1,
+                    "duration_ms": 145065,
+                    "episode": false,
+                    "explicit": false,
+                    "external_ids": {
+                        "isrc": "USA2P2330060"
+                    },
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/track/7kaFsQygyiCqRboWCXztxZ"
+                    },
+                    "href": "https://api.spotify.com/v1/tracks/7kaFsQygyiCqRboWCXztxZ",
+                    "id": "7kaFsQygyiCqRboWCXztxZ",
+                    "is_local": false,
+                    "name": "Do It Like That",
+                    "popularity": 85,
+                    "preview_url": "https://p.scdn.co/mp3-preview/eb7e5a198faa084e07e9167664120b5128c8da16?cid=3d918c9fcbe44e099ba189c46cdedd8d",
+                    "track": true,
+                    "track_number": 1,
+                    "type": "track",
+                    "uri": "spotify:track:7kaFsQygyiCqRboWCXztxZ"
+                },
+                "video_thumbnail": {
+                    "url": null
+                }
+            },
+            {
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -5967,7 +7871,7 @@
                     "id": "7foeH2Emgq8A3LWk3q6dat",
                     "is_local": false,
                     "name": "Kitsch",
-                    "popularity": 80,
+                    "popularity": 79,
                     "preview_url": "https://p.scdn.co/mp3-preview/d3342a1fbbe5bd47156d1d40ae09133af1ea4989?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 3,
@@ -5979,7 +7883,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -6501,7 +8405,7 @@
                     "id": "5qyjy0xfsHNzWxvXkHVB85",
                     "is_local": false,
                     "name": "Angel Pt. 1 (feat. Jimin of BTS, JVKE & Muni Long) - Trailer Version",
-                    "popularity": 77,
+                    "popularity": 75,
                     "preview_url": null,
                     "track": true,
                     "track_number": 1,
@@ -6513,7 +8417,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -6963,7 +8867,7 @@
                     "id": "1fP8o0lIaSIE5jEeblT8df",
                     "is_local": false,
                     "name": "Roller Coaster",
-                    "popularity": 76,
+                    "popularity": 77,
                     "preview_url": "https://p.scdn.co/mp3-preview/28579308844c5c22d1b4541d87e9d2533690e8f4?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -6975,7 +8879,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -7429,7 +9333,7 @@
                     "id": "65FftemJ1DbbZ45DUfHJXE",
                     "is_local": false,
                     "name": "OMG",
-                    "popularity": 92,
+                    "popularity": 91,
                     "preview_url": "https://p.scdn.co/mp3-preview/b9e344aa96afc45a56df77ca63c78786bdaa0047?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -7441,7 +9345,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -7891,7 +9795,7 @@
                     "id": "2KNEK9rGKQKKNE6FTt8PvQ",
                     "is_local": false,
                     "name": "Let's Say Goodbye",
-                    "popularity": 51,
+                    "popularity": 53,
                     "preview_url": "https://p.scdn.co/mp3-preview/265c444ff920b5ac4ea15d71a7e670cddf36abcb?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -7903,7 +9807,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -8267,7 +10171,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -8733,7 +10637,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -9199,7 +11103,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -9653,7 +11557,7 @@
                     "id": "4bjN59DRXFRxBE1g5ne6B1",
                     "is_local": false,
                     "name": "Haegeum",
-                    "popularity": 89,
+                    "popularity": 88,
                     "preview_url": "https://p.scdn.co/mp3-preview/3c2f1894de0f6a51f557131c3eb275cb8bc80831?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 2,
@@ -9665,7 +11569,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -10115,7 +12019,7 @@
                     "id": "6P3CtlzTKLxcNYGOS3es8m",
                     "is_local": false,
                     "name": "Love Me Like This",
-                    "popularity": 77,
+                    "popularity": 78,
                     "preview_url": "https://p.scdn.co/mp3-preview/5056710d4aeb684506f96ce0e07c4667efc7c994?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 2,
@@ -10127,7 +12031,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -10601,7 +12505,7 @@
                     "id": "4EaQ0ouIydfeAgQUz284EF",
                     "is_local": false,
                     "name": "People Pt.2 (feat. IU)",
-                    "popularity": 79,
+                    "popularity": 78,
                     "preview_url": "https://p.scdn.co/mp3-preview/c08aa5fda6a67991fd99c62bd987e02f601f68bc?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -10613,7 +12517,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -11067,7 +12971,7 @@
                     "id": "4kSDi21MeOoSvpZs6MveI9",
                     "is_local": false,
                     "name": "Teddy Bear",
-                    "popularity": 72,
+                    "popularity": 71,
                     "preview_url": "https://p.scdn.co/mp3-preview/32f0104f2fd3689e5ea195e2d808a68b3de67013?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -11079,7 +12983,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -11531,7 +13435,7 @@
                     "id": "5mg3VB3Qh7jcR5kAAC4DSV",
                     "is_local": false,
                     "name": "Cupid",
-                    "popularity": 87,
+                    "popularity": 86,
                     "preview_url": "https://p.scdn.co/mp3-preview/5538072e4c389bac5ba4d90a7f5af2589446969d?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -11543,7 +13447,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -12029,7 +13933,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -12393,7 +14297,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -12859,7 +14763,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -13323,7 +15227,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -13787,7 +15691,7 @@
                     "id": "7eBpUuPnDTfbeP1P4P93CS",
                     "is_local": false,
                     "name": "Fighting (Feat. Lee Young Ji)",
-                    "popularity": 79,
+                    "popularity": 78,
                     "preview_url": "https://p.scdn.co/mp3-preview/1ffe6fb6452768fdafc6d6cf718e6a7f37db0867?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -13799,7 +15703,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -14265,7 +16169,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -14731,7 +16635,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -15197,7 +17101,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -15649,7 +17553,7 @@
                     "id": "0yLdNVWF3Srea0uzk55zFn",
                     "is_local": false,
                     "name": "Flowers",
-                    "popularity": 97,
+                    "popularity": 96,
                     "preview_url": "https://p.scdn.co/mp3-preview/9fbe346e805ed219204f53324f94557ab557b6d3?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -15661,7 +17565,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -16135,7 +18039,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -16601,7 +18505,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -17065,7 +18969,7 @@
                     "id": "5YSkDxmHvzSDWTu4MaEtfa",
                     "is_local": false,
                     "name": "Smoke Sprite (feat. RM of BTS)",
-                    "popularity": 77,
+                    "popularity": 76,
                     "preview_url": "https://p.scdn.co/mp3-preview/7e19daa9e7a96ba99adf541c42734725474dd01e?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 2,
@@ -17077,7 +18981,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -17531,7 +19435,7 @@
                     "id": "27bIik73QCu8Xzt3xpG1bI",
                     "is_local": false,
                     "name": "Candy",
-                    "popularity": 79,
+                    "popularity": 78,
                     "preview_url": "https://p.scdn.co/mp3-preview/a970bbec2161d4d336ff03424771cf52e2674821?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -17543,7 +19447,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -18037,7 +19941,7 @@
                     "id": "2UrBX2cG7ZSnN2SbgspmtK",
                     "is_local": false,
                     "name": "Grrr - Spotify Singles",
-                    "popularity": 53,
+                    "popularity": 52,
                     "preview_url": "https://p.scdn.co/mp3-preview/3d2080cca08b93ec86e17464dcd2fee85c14549c?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -18049,7 +19953,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -18503,7 +20407,7 @@
                     "id": "296nXCOv97WJNRWzIBQnoj",
                     "is_local": false,
                     "name": "FEARLESS",
-                    "popularity": 78,
+                    "popularity": 77,
                     "preview_url": "https://p.scdn.co/mp3-preview/1e0dc07da342ddc36d04c12fcb5e20bc96f86f51?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 2,
@@ -18515,7 +20419,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -18981,7 +20885,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -19447,7 +21351,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -19901,7 +21805,7 @@
                     "id": "4mPOgPXaXFBQ9dCg6OGEFv",
                     "is_local": false,
                     "name": "Yesterday",
-                    "popularity": 65,
+                    "popularity": 64,
                     "preview_url": "https://p.scdn.co/mp3-preview/f750e0f71b7bbe9188041b0b121f47fe6dc2a3c3?cid=3d918c9fcbe44e099ba189c46cdedd8d",
                     "track": true,
                     "track_number": 1,
@@ -19913,7 +21817,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -20377,7 +22281,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -20849,7 +22753,7 @@
                     "id": "7oDd86yk8itslrA9HRP2ki",
                     "is_local": false,
                     "name": "Die For You - Remix",
-                    "popularity": 92,
+                    "popularity": 91,
                     "preview_url": null,
                     "track": true,
                     "track_number": 1,
@@ -20861,7 +22765,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -21325,7 +23229,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -21787,7 +23691,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -22259,7 +24163,7 @@
                     "id": "3nqQXoyQOWXiESFLlDF1hG",
                     "is_local": false,
                     "name": "Unholy (feat. Kim Petras)",
-                    "popularity": 91,
+                    "popularity": 90,
                     "preview_url": null,
                     "track": true,
                     "track_number": 1,
@@ -22271,7 +24175,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -22735,7 +24639,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -23201,7 +25105,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -23673,7 +25577,7 @@
                     "id": "3i0FkJYlU4MFfYkjFHXXAM",
                     "is_local": false,
                     "name": "I'm Not Here To Make Friends",
-                    "popularity": 81,
+                    "popularity": 80,
                     "preview_url": null,
                     "track": true,
                     "track_number": 11,
@@ -23685,7 +25589,7 @@
                 }
             },
             {
-                "added_at": "2023-07-13T05:19:56Z",
+                "added_at": "2023-07-21T04:22:23Z",
                 "added_by": {
                     "external_urls": {
                         "spotify": "https://open.spotify.com/user/"
@@ -24155,7 +26059,7 @@
         "next": null,
         "offset": 0,
         "previous": null,
-        "total": 52
+        "total": 56
     },
     "type": "playlist",
     "uri": "spotify:playlist:37i9dQZF1DWT9uTRZAYj0c"

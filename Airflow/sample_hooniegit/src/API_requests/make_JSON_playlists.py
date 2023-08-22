@@ -8,7 +8,7 @@ import spotipy_modules as lib_spotify
 # VARIABLES
 DIRECTORY_playlist = f'{os.getcwd()}/Airflow/sample_hooniegit/datas/JSON/playlists'
 DIRECTORY_wishlist = f'{os.getcwd()}/Airflow/sample_hooniegit/datas/wishlists/playlists.json'
-print(f"DIRECTORY_PLAYLIST : {DIRECTOR dY_playlist}")
+print(f"DIRECTORY_PLAYLIST : {DIRECTORY_playlist}")
 
 # PLAYLISTS
 with open(DIRECTORY_wishlist, 'r') as file:

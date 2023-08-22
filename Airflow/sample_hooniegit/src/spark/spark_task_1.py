@@ -23,12 +23,11 @@ print("---------------df_items is made----------------------")
 # SAVE AS PARQUET
 # DIRECTORY NEEDS TO BE FIXED *********************
 PARQUET_PATH = f'file:{os.getcwd()}/Airflow/sample_hooniegit/datas/parquets/playlists/Hot Hits Korea/items'
-lib_spark.store_as_parquet(df_items, PARQUET_PATH)
+# lib_spark.store_as_parquet(df_items, PARQUET_PATH)
 
 # TEST
 if __name__ == "__main__":
-    pass
-    # print(playlist_name)
-    # dataframe.show()
-    # df_tracks.show()
-    # df_items.show()
+    print(playlist_name)
+    dataframe.show()
+    df_tracks.show()
+    df_items.show()
